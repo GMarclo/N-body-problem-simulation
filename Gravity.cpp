@@ -1,20 +1,3 @@
-/*
-Configuration Properties :
-Debugging - Environment - PATH=C:\Users\marce\OneDrive\Pulpit\cpp\SFML-2.5.1\bin
-C / C++ - General - Additional Include Directories - C:\Users\marce\OneDrive\Pulpit\cpp\SFML-2.5.1\include
-Linker - General - Additional Library Directories - C:\Users\marce\OneDrive\Pulpit\cpp\SFML-2.5.1\lib
-Linker - Input - Additional Dependencies :
-1) for Release:
-sfml-system.lib
-sfml-window.lib
-sfml-graphics.lib
-2) for Debug:
-sfml-system-d.lib
-sfml-window-d.lib
-sfml-graphics-d.lib
-
-*/
-
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
@@ -82,4 +65,5 @@ int main() {
 			window.draw(planets[i]);
 		window.display();
 	}
+
 }
