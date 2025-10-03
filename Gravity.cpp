@@ -2,6 +2,8 @@
 #include <iostream>
 #include <vector>
 #include "Planet.h"
+// added library
+#include <ctime>
 
 using namespace sf;
 
@@ -67,3 +69,4 @@ int main() {
 	}
 
 }
+
